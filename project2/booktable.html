@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./assets/images/" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Food Website  | Book Table</title>
+
+    <!-- file css  -->
+    <link rel="stylesheet" href="./css/booktable.css">
+    </head>
+    <body>
+        <div class="main">
+            <!-- <i class="fa fa-times" ></i> -->
+            <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+            <a href="./index.html">
+                
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                
+            </a>
+            <div class="image">
+                <!-- <img src="./assets/images/blur-restaurant-2.png" alt=""> -->
+            </div>
+            <div class="form">
+                <pre>Book Your Table</pre>
+                <form action="">
+                    <label for="name"> Name:</label>
+                    <input id="name"type="text" placeholder="Enter Your Full Name">
+                    <br>
+                    <label for="email"> Email:</label>
+                    <input  id="email"type="email" placeholder="Enter Your Email">
+                    <br>
+                    
+                    <label for="time"> Time:</label>
+                    <input id="time" type="time">
+                    <br>
+                    <label for="date"> Date:</label>
+                    <input  id="date"type="date">
+                    <br>
+                    <label for="occasion"> Occasion:</label>
+                    <select id="occasion" name="occ">
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="diner">Diner</option>
+                        <option value="party">Party</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br>
+                    
+                    <label for="num"> Number of person:</label>
+                    <input  id="num"type="number" min="1" max="50" step="1">
+                    <br>
+            
+                    
+
+                    <label>The Pay:</label>
+
+                    <div class="check1">
+                    <input type="radio" id="bank">
+                    <label for="bank">Bank</label>
+                    </div>
+                    <br>
+
+                    <div class="check2">
+                    <input type="radio" id="cash">
+                    <label for="cash">Cash</label>
+                    </div>     
+                    
+                    
+                    <div class="submit">
+                    <input type="submit" value="Book Now">
+                    </div>
+                </form>
+            </div> 
+        </div>
+        <script src="https://kit.fontawesome.com/cd49ac83b9.js" crossorigin="anonymous"></script>
+    </body>

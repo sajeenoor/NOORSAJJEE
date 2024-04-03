@@ -1,0 +1,109 @@
+body{
+    background-image: url("../assets/images/blur-restaurant-2.png");
+} 
+.main ul li{
+    padding: 0 15px;
+    font-size: 18px;
+}
+.main a i{
+    color: white;
+    display: inline;
+    top: 49px;
+    position: absolute;
+    left:69%;
+    width: 33px;
+    height: 25px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1000;
+    padding-top: 5px; 
+}
+
+
+.main .image{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.image::before{
+    content: "";
+    width: 562px;
+    height: 530px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 399px;
+    border-radius: 15px ;
+}
+.form{
+    left: 484px;
+    position: absolute;
+    top: 135px;
+    font-size: xx-large;
+}
+.form pre{
+    position: absolute;
+    top: -98px;
+    font-size: xxx-large;
+    color: rgb(253,57,8);
+    font-weight: bolder;
+}
+
+#name,
+#email,
+#time,
+#date,
+#occasion,
+#num{
+    margin-bottom: 10px;
+}
+input{
+    width: 190px;
+    height: 29px;
+}
+
+.check1 #bank{
+    position: absolute;
+    /* top: 378px; */
+    left: 19px;
+}
+.check1 label{
+    position: absolute;
+    /* top: 381px; */
+    left: 141px;
+}
+.check2 #cash{
+    position: absolute;
+    top: 345px;
+    left: 132px;
+}
+.check2 label{
+    position: absolute;
+    top: 343px;
+    left: 259px;
+} 
+
+.submit{
+    padding-top: 17px;
+    padding-left: 91px;
+}
+
+.submit input{
+    width: 216px;
+    height: 43px;
+    background-color: rgb(253,57,8);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+select{
+    width: 162px;
+    height: 37px;
+}
+input{
+    font-size: large;
+}
+.main i .fa fa-times{
+    position: absolute;
+}
